@@ -7,7 +7,7 @@
 
 You can link to other nodes in a node's text by using this notation:
 
-```markdown
+```toothrot
 This is a link: [click me](#another_node)
 ```
 

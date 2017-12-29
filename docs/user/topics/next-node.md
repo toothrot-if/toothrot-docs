@@ -12,7 +12,7 @@ or by pressing either the `SPACE` or `RIGHT` key. You can specify the next node 
 For example, if you want the next node of the node `my_node` to be `another_node`,
 you can write it like this:
 
-```markdown
+```toothrot
 ### my_node
 
 Some text.
@@ -23,7 +23,7 @@ Some text.
 Sometimes you might want to create many connected nodes that don't need to be accessible from
 somewhere else. There's a shorthand notation for nodes like that:
 
-```markdown
+```toothrot
 ### boring_story
 
 Once upon a time, there was a man.

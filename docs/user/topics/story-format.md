@@ -6,7 +6,7 @@ to structure your story.
 
 A basic story file looks like this:
 
-```markdown
+```toothrot
 # My Story
 
 ## default_section
