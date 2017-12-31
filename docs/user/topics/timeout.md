@@ -3,7 +3,7 @@
 [Option Menus](option-menus.md)
 ----/
 
-# Option Timeout
+# Timeout
 
 Sometimes you want the player to choose an option in a certain amount of time to increase
 the engagement or make the game a little more challenging. Toothrot allows you to do this
@@ -34,6 +34,8 @@ reached.
 The `timeout` property expects the time in milliseconds (1/1000 of a second). So in the example
 above, the player has 20 seconds to choose one of the options.
 
+## Default Option
+
 If the player doesn't choose something in time, the first option will be chosen automatically.
 If that's not what you want, you can use the `defaultOption` property to tell the engine
 which option should be used when the player can't decide:
@@ -45,4 +47,14 @@ which option should be used when the player can't decide:
 /---- info
 The `defaultOption` property is a zero-based number, that means that `0` is the first option
 and `1` is the second.
+----/
+
+## Timeout Without Options
+
+A timeout can also be defined for nodes that don't have any options. When the timeout is reached
+and there's no option, the story continues either with the [next node](next-node.md) or
+the [last node](return-to-last.md).
+
+/---- next
+[Auto Next](auto-next.md)
 ----/

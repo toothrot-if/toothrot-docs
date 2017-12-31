@@ -15,8 +15,8 @@ To add an option to a text node, just write it at the end of the node's text lik
 (@) Click me? => option_clicked
 ```
 
-This will display a button with the text "Click me?" and, when clicked, it will go to the node
-named "option_clicked".
+This will display a button with the text `Click me?` and, when clicked, it will go to the node
+named `option_clicked`.
 
 You can also specify a value for an option:
 
@@ -38,5 +38,5 @@ info). For example, the following will show the `Open` option only when the node
 ```
 
 /---- next
-[Option Timeout](timeout.md)
+[Timeout](timeout.md)
 ----/
