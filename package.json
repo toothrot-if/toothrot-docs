@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/toothrot-if/toothrot-docs#readme",
   "devDependencies": {
-    "toothrot-allthedocs": "^1.1.3"
+    "toothrot-allthedocs": "^1.1.4"
   }
 }

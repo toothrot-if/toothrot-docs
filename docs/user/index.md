@@ -11,14 +11,18 @@
 ## Basic Topics
 
 * [The Story Format](topics/story-format.md)
-* [Option Menus](topics/option-menus.md)
+* [Next Node](topics/next-node.md)
+* [Return to Last Node](topics/return-to-last.md)
 * [Linking to Other Nodes](topics/links.md)
+* [Option Menus](topics/option-menus.md)
+* [Node Properties](topics/node-properties.md)
+* [Timeout](topics/timeout.md)
 * [Auto Next](topics/auto-next.md)
 
 ## Advanced Topics
 
-* Scripts and Slots
-* Variables
+* [Scripts and Slots](topics/scripts-and-slots.md)
+* [Variables](topics/variables.md)
 * The Node API
 * The Function Container `_`
 * Node Tags and Hierarchy

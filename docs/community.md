@@ -16,8 +16,9 @@ about the engine or show off what you made with it.
 
 ## GitHub
 
-We host all our code on [our GitHub](https://github.com/iiyo/toothrot).
-This is also the place where we track [issues](https://github.com/iiyo/toothrot/issues)
-for toothrot and accept pull requests. If you found a bug, please report it there.
+We host all our code on [our GitHub](https://github.com/toothrot-if/).
+This is also the place where we track [issues](https://github.com/toothrot-if/toothrot/issues)
+for Toothrot and accept pull requests. If you found a bug, please report it there.
 
-If you want to add a feature to the engine, please come talk to us on our discord server first.
+If you want to add a feature to the engine or the IDE, please come talk to us on our
+discord server first.

@@ -13,8 +13,8 @@
         "docs/theme/"
     ],
     "navigation": {
-        "</svg><svg class='fill-white' xmlns='http://www.w3.org/2000/svg' width='16' height='16'><use xlink:href='#icon-home'></use></svg>": "index.md",
-        "Docs": "docs/user/index.md",
+        "Home": "index.md",
+        "Documentation": "docs/user/index.md",
         "Community": "docs/community.md",
         "GitHub": "https://github.com/toothrot-if/toothrot",
         "Reddit": "https://reddit.com/r/toothrot",

@@ -88,3 +88,7 @@ Good things will come to those that bother to put in the effort.
 In the example above, if the user doesn't do anything after coming to the `and_another_node` node
 within 10 seconds, the `lazy` node will be displayed. If she clicks on the screen or presses
 the next button though, the story will move to the `action` node.
+
+/---- next
+[Default Settings](default-settings.md)
+----/

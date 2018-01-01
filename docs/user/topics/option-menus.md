@@ -38,5 +38,5 @@ info). For example, the following will show the `Open` option only when the node
 ```
 
 /---- next
-[Timeout](timeout.md)
+[Node Properties](node-properties.md)
 ----/

@@ -37,8 +37,7 @@ The man and the woman grew older and older.
 Then they died.
 ```
 
-In this example, we have a named node `boring_story` and a bunch of connected nodes
-defined by `***`.
+In this example, we have a named node `boring_story` and a bunch of connected nodes defined by `***`.
 
 /---- next
 [Return to the Last Node](return-to-last.md)

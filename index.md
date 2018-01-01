@@ -1,10 +1,127 @@
 # Toothrot Engine
 
+<div style="text-align: center; padding-top: 10px;">
+    <div class="cta-button-container">
+        <button class="ide-download-button cta-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="fill-black icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-download"></use>
+            </svg>
+            Download Toothrot IDE 2.0.0
+        </button>
+        <div class="cta-button-alternatives">
+            <div style="float: right;">
+                <a href="https://github.com/toothrot-if/toothrot/blob/develop/CHANGELOG.md">
+                CHANGELOG
+                </a>
+            </div>
+            Supported Systems:
+            <a class="downloadLink" data-os="windows" target="_blank" href="#win">Windows</a>,
+            <a class="downloadLink" data-os="mac" target="_blank" href="#mac">Mac OS</a>,
+            <a class="downloadLink" data-os="linux" target="_blank" href="#linux">Linux</a>
+        </div>
+    </div>
+</div>
+
+<div class="after-download-windows" style="display: none">
+
+[IDE Quick Start Guide](docs/user/after-ide-download-windows.md)
+
+</div>
+
+<div class="after-download-mac" style="display: none">
+
+[IDE Quick Start Guide](docs/user/after-ide-download-mac.md)
+
+</div>
+
+<div class="after-download-linux" style="display: none">
+
+[IDE Quick Start Guide](docs/user/after-ide-download-linux.md)
+
+</div>
+
+<script>
+(function () {
+    
+    var os = "windows";
+    var button = document.querySelector(".ide-download-button");
+    var links = Array.prototype.slice.call(document.querySelector(".downloadLink"));
+    var appVersion = navigator.appVersion;
+    
+    var systems = {
+        windows: "Windows",
+        mac: "Mac OS X",
+        linux: "Linux"
+    }
+    
+    if (appVersion.indexOf("Mac") != -1) {
+        os = "mac";
+    }
+    
+    if (appVersion.indexOf("Linux") != -1) {
+        os = "linux";
+    }
+    
+    button.innerHTML += " for " + systems[os];
+    
+    button.addEventListener("click", function (event) {
+        
+        var link = document.querySelector(".cta-button-container *[data-os='" + os + "']");
+        
+        console.log("Clicked on button.");
+        
+        linkClick(null, link);
+        
+    });
+    
+    links.forEach(function (link) {
+        
+        var os = link.getAttribute("data-os");
+        
+        link.addEventListener("click", linkClick);
+        
+    });
+    
+    function linkClick(event, target) {
+        
+        var link = (target ? target : event.target);
+        var os = link.getAttribute("data-os");
+        
+        console.log("Clicked on link.");
+        
+        if (event) {
+            event.stopPropagation();
+            event.preventDefault();
+        }
+        
+        window.open(link.getAttribute("href"), "_blank");
+        
+        setTimeout(function () {
+            
+            var guideLink = document.querySelector(".after-download-" + os + " a");
+            
+            guideLink.click();
+            
+        }, 1000);
+    }
+    
+}());
+</script>
+
 ## What is it?
 
 Toothrot is an engine for text-based games (interactive fiction). It helps you write
 interactive stories that run in both desktop and mobile browsers or even as regular desktop
 applications (Win, Mac, Linux).
+
+<video src="{rootDir}docs/videos/gameplay.webm" controls poster="{rootDir}docs/videos/gameplay.png">
+Sorry, your browser doesn't support embedded videos.
+</video>
+
+<div style="display: none">
+[Download video](file: docs/videos/gameplay.webm)
+![Poster image](docs/videos/gameplay.png)
+</div>
 
 Toothrot incorporates elements from many different flavors of text-driven games:
 
@@ -23,20 +140,9 @@ writing basic stories.
 Toothrot is fully **open source** and allows developing commercial games, too.
 
 
-## What does it look like?
+## Why should you use Toothrot?
 
-<video src="{rootDir}docs/videos/gameplay.webm" controls poster="{rootDir}docs/videos/gameplay.png">
-Sorry, your browser doesn't support embedded videos.
-</video>
-
-<div style="display: none">
-[Download video](file: docs/videos/gameplay.webm)
-![Poster image](docs/videos/gameplay.png)
-</div>
-
-## Why and when should you use toothrot?
-
-&#x2713; You should consider writing your game using toothrot when...
+&#x2713; You should consider writing your game using Toothrot when...
 
 * ...you want to use both **hyperlinks** and **choice buttons** in the same game
 * ...you want an easy way to go to the **next** piece of text (like in visual novels)
@@ -50,12 +156,12 @@ Sorry, your browser doesn't support embedded videos.
 * ...you want text to appear character by character
 * ...you want to develop a more involved **world model** than just using variables
 
-&#x274c; You probably shouldn't use toothrot when...
+&#x274c; You probably shouldn't use Toothrot when...
 
-* ...you freak out when you have to write stuff into a terminal
 * ...you need an editor that hides all the technical details from you
 * ...you want to display massive amounts of text at once (try ChoiceScript instead)
 
 /---- info
-Want to give the engine a try? Read the [Quick Start Guide](docs/user/guides/quick-start/index.md)!
+Want to give the engine a try? Read the
+[Quick Start Guide](docs/user/guides/quick-start-ide/index.md)!
 ----/
