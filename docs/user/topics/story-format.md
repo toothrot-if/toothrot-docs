@@ -14,7 +14,7 @@ A basic story file looks like this:
 
 ### start
 
-This is some text with **markdown** formating.
+This is some text with **markdown** formatting.
 
 And [this is a link to another node](#another_node). Click it.
 
@@ -25,7 +25,6 @@ This is the text of another node.
 
 (<)
 ```
-
 
 A toothrot story file is divided into sections (starting with `##`) and nodes
 (starting with `###`).

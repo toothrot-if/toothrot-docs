@@ -28,14 +28,16 @@ title and the first section. The block must contain a JSON object.
 
 ## Available Settings
 
-|Property Name      | Values                       | Description                                   |
-|:------------------|:-----------------------------|:----------------------------------------------|
-| textSpeed         | `1` to `100`                 | Speed of reveal effect; `100`: instantly      |
-| soundVolume       | `0` to `100`                 | Volume of sound effects in percent            |
-| musicVolume       | `0` to `100`                 | Volume of music in percent                    |
-| ambienceVolume    | `0` to `100`                 | Volume of ambience track in percent           |
-| skipMainMenu*     | `true` or `false`            | If `true` story starts directly (no menu)     |
-| continueOnStart*  | `true` or `false`            | If `true` story starts directly at last node  |
+|Property Name        | Values               | Description                                   |
+|:--------------------|:---------------------|:----------------------------------------------|
+| textSpeed           | `1` to `100`         | Speed of reveal effect; `100`: instantly      |
+| soundVolume         | `0` to `100`         | Volume of sound effects in percent            |
+| musicVolume         | `0` to `100`         | Volume of music in percent                    |
+| ambienceVolume      | `0` to `100`         | Volume of ambience track in percent           |
+| skipMainMenu*       | `true` or `false`    | If `true` story starts directly (no menu)     |
+| continueOnStart*    | `true` or `false`    | If `true` story starts directly at last node  |
+| useNextIndicator*   | `true` or `false`    | [Indicators](indicators.md)                   |
+| useReturnIndicator* | `true` or `false`    | [Indicators](indicators.md)                   |
 
 The properties marked with an `*` cannot be set using the default settings screen included in
 Toothrot.
@@ -47,8 +49,13 @@ start your game, they don't see a menu and the story starts directly at the `sta
 This setting only affects the main menu though -- the pause menu will still be shown when the
 player clicks the menu button during play or when he presses the `ESC` key.
 
-### Continue at last visited node
+### Continuing at last visited node
 
 When the `continueOnStart` setting is set to `true` and the player had previously started the game,
 then the main menu will not be displayed when the player returns to your game; instead, the story
 will continue where the player last left off.
+
+
+/---- next
+[Indicators](indicators.md)
+----/

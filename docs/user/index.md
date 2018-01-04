@@ -18,16 +18,23 @@
 * [Node Properties](topics/node-properties.md)
 * [Timeout](topics/timeout.md)
 * [Auto Next](topics/auto-next.md)
+* [Default Settings](topics/default-settings.md)
+* [Indicators](topics/indicators.md)
 
 ## Advanced Topics
 
+* [World Model(s)](topics/world-models.md)
+* Node Tags
+* Node Flags
+* Node Data
 * [Scripts and Slots](topics/scripts-and-slots.md)
 * [Variables](topics/variables.md)
 * The Node API
-* The Function Container `_`
+* [The Function Container `_`](topics/function-container.md)
 * Node Tags and Hierarchy
 
 ## Recipes
 
 * Implementing an Inventory
 * Using Events for Ambience
+* Creating a Stats Screen
