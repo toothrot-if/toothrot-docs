@@ -114,6 +114,10 @@ Toothrot is an engine for text-based games (interactive fiction). It helps you w
 interactive stories that run in both desktop and mobile browsers or even as regular desktop
 applications (Win, Mac, Linux).
 
+Check out [an example game](https://games.toothrot.one/cloak-of-darkness/) (
+[source](https://raw.githubusercontent.com/toothrot-if/toothrot-examples/master/cloak-of-darkness/resources/story.trot.md)) or watch the short video
+below:
+
 <video src="{rootDir}docs/videos/gameplay.webm" controls poster="{rootDir}docs/videos/gameplay.png">
 Sorry, your browser doesn't support embedded videos.
 </video>

@@ -25,6 +25,11 @@ This is the other node.
 (<)
 ```
 
+The fact that `autonext` is defined for a node can bee seen in the game in the form of
+the *autonext [indicator](indicators.md)*, three growing and shrinking dots:
+
+![Autonext indicator](../../images/autonext-indicator.png)
+
 Quite similar to the [timeout property](timeout.md), the `autonext` property's value is the
 number of milliseconds to wait before going to the next node. The big difference between
 the two is that when you use the `autonext` property, no bar is being displayed that indicates
@@ -42,7 +47,7 @@ the [previous node](return-to-last.md) is shown. But sometimes you might want to
 go to a node while no next node or return is specified -- or you might want to take
 the user to a different node than the next node when she doesn't interact with the game.
 
-To accomplish this, toothrot has the `autonextTarget` property. This property expects as its
+To accomplish this, Toothrot has the `autonextTarget` property. This property expects as its
 value a string containing the ID of a node:
 
 ```toothrot

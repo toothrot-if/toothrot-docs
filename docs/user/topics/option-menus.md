@@ -9,6 +9,10 @@ Each text node can have an option menu. Options are displayed as buttons below t
 If you want to write a quiz game or a choice game or have dialogs like in point and click
 adventures, options are probably the right thing to use.
 
+Option menus look like this in the game:
+
+![Option Menu](../../images/option-menu.png)
+
 To add an option to a text node, just write it at the end of the node's text like this:
 
 ```toothrot
