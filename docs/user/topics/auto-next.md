@@ -48,7 +48,7 @@ go to a node while no next node or return is specified -- or you might want to t
 the user to a different node than the next node when she doesn't interact with the game.
 
 To accomplish this, Toothrot has the `autonextTarget` property. This property expects as its
-value a string containing the ID of a node:
+value a string containing the name of a node:
 
 ```toothrot
 ### yet_another_node
@@ -95,5 +95,5 @@ within 10 seconds, the `lazy` node will be displayed. If she clicks on the scree
 the next button though, the story will move to the `action` node.
 
 /---- next
-[Default Settings](default-settings.md)
+[Backgrounds](backgrounds.md)
 ----/

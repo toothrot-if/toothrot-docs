@@ -1,6 +1,6 @@
 
 /---- previous
-[Return to the Last Node](return-to-last.md)
+[Story Format](story-format.md)
 ----/
 
 # Linking to Other Nodes
@@ -16,5 +16,5 @@ The second part, between `(#` and `)` is the name of the node that will be reach
 when the user clicks on the link.
 
 /---- next
-[Option Menus](option-menus.md)
+[Next Node](next-node.md)
 ----/

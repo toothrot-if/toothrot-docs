@@ -1,12 +1,12 @@
 
 /---- previous
-[Auto Next](auto-next.md)
+[Audio](audio.md)
 ----/
 
 # Default Settings
 
 The default behavior of your story can be modified with a special JSON code block in the
-head section of the main story file, `story.trot.md`:
+*head* (between the story title and the first section) of the main story file, `story.trot.md`:
 
 ````toothrot
 # My Story
@@ -22,9 +22,6 @@ head section of the main story file, `story.trot.md`:
 }
 ```
 ````
-
-The `@settings` block must be in the head section of your story, that is between the story
-title and the first section. The block must contain a JSON object.
 
 ## Available Settings
 
@@ -49,7 +46,7 @@ start your game, they don't see a menu and the story starts directly at the `sta
 This setting only affects the main menu though -- the pause menu will still be shown when the
 player clicks the menu button during play or when he presses the `ESC` key.
 
-### Continuing at last visited node
+### Continuing at the last visited node
 
 When the `continueOnStart` setting is set to `true` and the player had previously started the game,
 then the main menu will not be displayed when the player returns to your game; instead, the story

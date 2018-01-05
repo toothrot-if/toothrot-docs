@@ -113,5 +113,5 @@ and then all its nodes will be displayed with this background (except
 for those nodes that define a separate background themselves).
 
 /---- next
-[Next Nodes](next-node.md)
+[Linking to Other Nodes](links.md)
 ----/

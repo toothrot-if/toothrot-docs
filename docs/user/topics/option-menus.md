@@ -1,6 +1,6 @@
 
 /---- previous
-[Linking to Other Nodes](links.md)
+[Return to the Last Node](return-to-last.md)
 ----/
 
 # Option Menus
@@ -38,7 +38,7 @@ info). For example, the following will show the `Open` option only when the node
 
 ```toothrot
 (@) closed  ??? Open => open_container
-(@) !closed ??? Closed => close_container
+(@) !closed ??? Close => close_container
 ```
 
 /---- next

@@ -1,6 +1,6 @@
 
 /---- previous
-[Option Menus](option-menus.md)
+[Node Properties](node-properties.md)
 ----/
 
 # Timeout

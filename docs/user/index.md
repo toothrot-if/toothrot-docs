@@ -11,13 +11,15 @@
 ## Basic Topics
 
 * [The Story Format](topics/story-format.md)
+* [Linking to Other Nodes](topics/links.md)
 * [Next Node](topics/next-node.md)
 * [Return to Last Node](topics/return-to-last.md)
-* [Linking to Other Nodes](topics/links.md)
 * [Option Menus](topics/option-menus.md)
 * [Node Properties](topics/node-properties.md)
 * [Timeout](topics/timeout.md)
 * [Auto Next](topics/auto-next.md)
+* [Backgrounds](topics/backgrounds.md)
+* [Audio](topics/audio.md)
 * [Default Settings](topics/default-settings.md)
 * [Indicators](topics/indicators.md)
 

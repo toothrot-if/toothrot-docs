@@ -42,3 +42,7 @@ The indicators are displayed according to the following rules:
 The setting or node property to enable or disable the *return indicator* is `useReturnIndicator`.
 
 The setting or node property to enable or disable the *next indicator* is `useNextIndicator`.
+
+/---- next
+[Back to documentation index](../index.md)
+----/

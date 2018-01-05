@@ -1,6 +1,6 @@
 
 /---- previous
-[The Story Format](story-format.md)
+[Linking to Other Nodes](links.md)
 ----/
 
 # Next Node
