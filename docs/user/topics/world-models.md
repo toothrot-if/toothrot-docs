@@ -20,19 +20,25 @@ building blocks that you can use to define your own world model.
 
 ## Giving meaning to nodes
 
-Nodes, the fundamental building blocks in toothrot, are more than just pieces of text.
+Text nodes (passages) in Toothrot are more than just pieces of text.
 
-Nodes can be labeled using *tags*. With tags, you can define a node to be a room or an item,
+Nodes can be labeled using *[tags](node-tags.md)*.
+With tags, you can define a node to be a room or an item,
 or you can label it something else completely. The engine doesn't actually know what
 a "room" or an "item" is, but it allows you to treat one kind of node differently from
 another kind.
 
-Each node can have an unlimited number of tags. Tags can be put into a hierarchy. This way you
-can define, for example, that a container is an item and that both a person and an
-animal are beings.
+Each node can have an unlimited number of tags. Tags can be put into a
+[hierarchy](tag-hierarchy.md). This way you can define, for example, that a container is
+an item and that both a person and an animal are beings.
 
-A node's internal state can be changed using so-called *flags*. A flag doesn't have a value itself,
-it just defines that a fact is true or not true for a node. Options (you can think about them
-as actions the player can do) can be shown or hidden depending on these flags. For example, a
-node that acts as a container can have or not have a `closed` flag set and then display either
-a `Close` or `Open` option depending on whether or not the flag is set.
+A node's internal state can be changed using so-called *[flags](node-flags.md)*.
+A flag doesn't have a value itself, it just defines that a fact is true or not true for
+a node. Options (you can think about them as actions the player can do) can be shown
+or hidden depending on these flags. For example, a node that acts as a container can have
+or not have a `closed` flag set and then display either a `Close` or `Open` option
+depending on whether or not the flag is set.
+
+/---- next
+[Node Tags](node-tags.md)
+----/

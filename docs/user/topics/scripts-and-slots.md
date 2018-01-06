@@ -1,4 +1,8 @@
 
+/---- previous
+[Node Flags](node-flags.md)
+----/
+
 # Scripts and Slots
 
 Simple choices or links don't cut it for your game? Then you can use JavaScript to further

@@ -26,14 +26,13 @@
 ## Advanced Topics
 
 * [World Model(s)](topics/world-models.md)
-* Node Tags
-* Node Flags
-* Node Data
+* [Node Tags](topics/node-tags.md)
+* [Tag Hierarchy](topics/tag-hierarchy.md)
+* [Node Flags](topics/node-flags.md)
 * [Scripts and Slots](topics/scripts-and-slots.md)
 * [Variables](topics/variables.md)
-* The Node API
 * [The Function Container `_`](topics/function-container.md)
-* Node Tags and Hierarchy
+* [The Node API](topics/node-api.md)
 
 ## Recipes
 

@@ -43,6 +43,19 @@ The setting or node property to enable or disable the *return indicator* is `use
 
 The setting or node property to enable or disable the *next indicator* is `useNextIndicator`.
 
+
+## Hint text
+
+If an indicator is displayed and the player doesn't act within 5 seconds, a little hint text
+is displayed to inform the player that she can click anywhere on the screen to continue
+the story:
+
+![Indicator hint text](../../images/indicator-hint-text.png)
+
+To adjust the time that has to pass before the hint text is displayed, the `indicatorHint`
+[setting](default-settings.md) can be set. It expects the time in milliseconds. If
+the `indicatorHint` setting is set to `0`, then *no* hint will be displayed.
+
 /---- next
 [Back to documentation index](../index.md)
 ----/

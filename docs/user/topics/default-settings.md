@@ -25,16 +25,17 @@ The default behavior of your story can be modified with a special JSON code bloc
 
 ## Available Settings
 
-|Property Name        | Values               | Description                                   |
-|:--------------------|:---------------------|:----------------------------------------------|
-| textSpeed           | `1` to `100`         | Speed of reveal effect; `100`: instantly      |
-| soundVolume         | `0` to `100`         | Volume of sound effects in percent            |
-| musicVolume         | `0` to `100`         | Volume of music in percent                    |
-| ambienceVolume      | `0` to `100`         | Volume of ambience track in percent           |
-| skipMainMenu*       | `true` or `false`    | If `true` story starts directly (no menu)     |
-| continueOnStart*    | `true` or `false`    | If `true` story starts directly at last node  |
-| useNextIndicator*   | `true` or `false`    | [Indicators](indicators.md)                   |
-| useReturnIndicator* | `true` or `false`    | [Indicators](indicators.md)                   |
+|Property Name        | Values                  | Description                                   |
+|:--------------------|:------------------------|:----------------------------------------------|
+| textSpeed           | `1` to `100`            | Speed of reveal effect; `100`: instantly      |
+| soundVolume         | `0` to `100`            | Volume of sound effects in percent            |
+| musicVolume         | `0` to `100`            | Volume of music in percent                    |
+| ambienceVolume      | `0` to `100`            | Volume of ambience track in percent           |
+| skipMainMenu*       | `true` or `false`       | If `true` story starts directly (no menu)     |
+| continueOnStart*    | `true` or `false`       | If `true` story starts directly at last node  |
+| useNextIndicator*   | `true` or `false`       | [Indicators](indicators.md)                   |
+| useReturnIndicator* | `true` or `false`       | [Indicators](indicators.md)                   |
+| indicatorHint*      | Positive integer or `0` | [Indicators](indicators.md)                   |
 
 The properties marked with an `*` cannot be set using the default settings screen included in
 Toothrot.
